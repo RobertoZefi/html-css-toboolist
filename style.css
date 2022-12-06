@@ -6,104 +6,127 @@
 
 .logo{
     vertical-align: middle;
-    width: 130px;
+    width: 100px;
+    margin: 20px 20px;
 }
 
 .header{
-    font-size: 100px;
+    font-size: 70px;
     background-color: white;
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(246, 248, 249);
+    
 }
 
 .contenitore{
     margin: 80px 150px 80px 150px;
     background-color: white;
+    height: 800px;
+    max-width: 1300px;
+    border-radius: 10px;
 }
 
 .barra-bottoni{
-    border-bottom: 3px solid;
+    border-bottom: 3px solid rgb(246, 248, 249);
     margin-bottom: 40px;
 }
 
 .task{
     display: inline-block;
-    background-color: cyan;
+    background-color: rgb(71, 173, 241);
+    color: white;
     padding: 10px;
     margin: 15px 15px;
     margin-left: 50px;
+    border-radius: 10px;
 }
 
 .section{
     display: inline-block;
     border: 2px solid;
     padding: 10px;
-    opacity: 0,5;
-    border-radius: 3px;
+    color: rgba(1,1,1,0.3);
+    border-radius: 10px;
 }
 
 .menu{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 50px;
     margin-bottom: 20px;
 }
 
 .editorial{
-    background-color: blue;
+    background-color: rgb(71, 173, 241);
     padding: 8px;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .goals{
-    background-color:purple;
+    background-color:rgb(156, 114, 228);
     padding: 8px;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .recruiting{
-    background-color:green;
+    background-color:rgb(100, 192, 169);
     padding: 8px;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .mobile{
-    background-color:orange;
+    background-color:rgb(242, 158, 51);
     padding: 8px;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .website{
-    background-color:palevioletred;
+    background-color:rgb(216, 99, 161);
     padding: 8px;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .sales{
-    background-color:greenyellow;
+    background-color:rgb(176, 201, 38);
     padding: 8px;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
 .menu p{
     margin-bottom: 20px;
+}
+
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
 }
