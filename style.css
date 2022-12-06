@@ -17,3 +17,42 @@
 body{
     background-color: grey;
 }
+
+.contenitore{
+    margin: 80px 150px 80px 150px;
+    background-color: white;
+}
+
+.barra-bottoni{
+    border-bottom: 3px solid;
+    margin-bottom: 40px;
+}
+
+.task{
+    display: inline-block;
+    background-color: cyan;
+    padding: 10px;
+    margin: 15px 15px;
+    margin-left: 50px;
+}
+
+.section{
+    display: inline-block;
+    border: 2px solid;
+    padding: 10px;
+    margin: 15px 15px;
+    margin-left: 10px;
+}
+
+.menu{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.editorial{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
